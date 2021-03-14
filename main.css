@@ -1,0 +1,342 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial;
+  
+
+}
+
+.profile-card {
+  
+}
+
+/*.mark1 {
+  background-color: hsla(0,100%,50%,.5);
+}
+.mark2 {
+  background-color: hsla(50,100%,50%,.5);
+}
+.mark3 {
+  background-color: hsla(100,100%,50%,.5);
+}
+.mark4 {
+  background-color: hsla(150,100%,50%,.5);
+}
+.mark5 {
+  background-color: hsla(200,100%,50%,.5);
+}
+.mark6 {
+  background-color: hsla(250,100%,50%,.5);
+}
+.mark7 {
+  background-color: hsla(300,100%,50%,.5);
+}
+.mark8 {
+  background-color: hsla(330,20%,50%,.5);
+}
+.mark9 {
+  background-color: hsla(0,100%,0%,.5);
+}
+.mark10 {
+  background-color: hsla(50,100%,80%,.5);
+}
+.mark11 {
+  background-color: hsla(100,100%,80%,.5);
+}
+.mark12 {
+  background-color: hsla(150,100%,80%,.5);
+}
+.mark13 {
+  background-color: hsla(200,100%,80%,.5);
+} */
+
+body {
+  background: url('assets/h%C3%A1tt%C3%A9rk%C3%A9p2.jpg') no-repeat center center fixed;
+  background-size: cover;
+  background-blend-mode: soft-light;
+}
+
+.profile-card {
+  height: 100%;
+  width: 100%;
+  position:relative;
+  
+}
+
+.lang-selector {
+  width: 100%;
+  height: 10vh;
+  position:absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsla(0,0%,100%,.4);
+}
+
+.items, .portrait, .visit-me {
+  color: black;
+}
+
+.items {
+  width: 100%;
+  height: 30vh;  
+  position:absolute;
+  top: 10vh;
+  background-color: hsla(0,0%,100%,.4);
+}
+
+.portrait {
+  width: 100%;
+  height: 40vh;
+  position:absolute;
+  top: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsla(0,0%,100%,.4);
+}
+
+.photo {
+  max-height:90%;
+  border-radius: 5vw;
+  border-style: double ;
+  border-width: medium;
+  border-color: ivory;
+}
+
+.visit-me {
+  width: 100%;
+  height: 20vh;
+  position:absolute;
+  padding-bottom: 5vh;
+  top: 80vh;
+  background-color: hsla(0,0%,100%,.4);
+}
+
+.jdi {
+  position:absolute;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social {
+  position:absolute;
+  top: 50%;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.name {
+  position: absolute;
+  width: 100%;
+  height: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.prof {
+  position: absolute;
+  width: 100%;
+  height: 15%;
+  text: align: center;
+  top: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home {
+  position: absolute;
+  width: 100%;
+  height: 15%;
+  text-align: center;
+  top: 55%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.phone {
+  position: absolute;
+  width: 100%;
+  height: 15%;
+  text-align: center;
+  top: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mail {
+  position: absolute;
+  width:100%;
+  height: 15%;
+  text-align: center;
+  top: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-me {
+  position: absolute;
+  width:100%;
+  height:100vh;
+  top: 100vh;
+  background-color: hsla(0,0%,100%,.4);
+}
+
+.am1 {
+  position: absolute;
+  width:100%;
+  height: 50%;
+}
+
+.am2 {
+  position: absolute;
+  width:100%;
+  height: 50%;
+  top: 50%;
+}
+
+.am1t, .am2t {
+  position: absolute;
+  width:100%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.am1p, .am2p {
+  position: absolute;
+  width:80%;
+  height: 80%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10%;
+  top: 20%;
+}
+
+.images {
+  position: absolute;
+  width:100%;
+  height: 100vh;
+  top: 200vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: hsla(0,0%,100%,.4);
+}
+
+.impic {
+  height: 24vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5vw;
+  border-style: double ;
+  border-width: medium;
+  border-color: ivory;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+h3 {
+  font-size:1.5rem;
+  font-weight: 500;
+}
+
+p {
+  font-size: 1.4rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  margin: 0 5vw;
+}
+
+@media only screen and (min-width: 565px) {
+  
+  .items {
+    right: 0;
+    width: 50vw;
+    height: 70vh;
+  }
+  
+  .visit-me {
+    right: 0;
+    top: 80vh;
+    height: 20vh;
+    width: 50vw;
+    margin: 0;
+  }
+  
+  .portrait {
+    left: 0;
+    top: 10vh;
+    width: 50vw;
+    height: 90vh;
+  }
+}
+
+@media only screen and (min-width: 800px) and (min-height: 650px) {
+
+  .items {
+    right: 0;
+    width: 50%;
+    height: 30vh;
+  }
+    
+  .visit-me {
+    right: 0;
+    top: 40vh;
+    height: 20vh;
+    width: 50%;
+    margin: 0;
+  }
+  
+  .portrait {
+    left: 0;
+    top: 10vh;
+    width: 50%;
+    height: 50vh;
+  }
+    
+  .about-me {
+    top: 60vh;
+    width: 100%;
+    height: 40vh;
+    }
+  
+  .images {
+    top: 100vh;
+  }
+  }
+
+@media only screen and (max-height: 375px) {
+  p {
+    font-size: 1rem;
+  }
+}
